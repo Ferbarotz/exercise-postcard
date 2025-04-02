@@ -1,0 +1,50 @@
+CSS PORTAL
+body {
+	background: black;
+}
+
+p {
+	color: blue;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 300px;
+	margin: 1px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: none;
+}
+
+.body-left,
+.body-right {
+	padding: 1px 10px 2px 1px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: grey;
+	padding: blue;
+}
